@@ -1,17 +1,18 @@
 package com.qa.calculator;
 
+//original Calculator class with void main()
 public class Calculator {
 
-	public static void main(String[] args) {
-		
-		System.out.println(addTwoNumbers(1, 3));
-		System.out.println(takeTwoNumbers(1, 3));
-		System.out.println(timesTwoNumbers(1, 3));
-		System.out.println(divideTwoNumbers(1, 3));
-		
-		calculator(1, 2, 3);
-
-	}
+//	public static void main(String[] args) {
+//		
+//		System.out.println(addTwoNumbers(1, 3));
+//		System.out.println(takeTwoNumbers(1, 3));
+//		System.out.println(timesTwoNumbers(1, 3));
+//		System.out.println(divideTwoNumbers(1, 3));
+//		
+//		calculator(1, 2, 3);
+//
+//	}
 	
 	static int addTwoNumbers(int a, int b) {
 		return a+b;		
