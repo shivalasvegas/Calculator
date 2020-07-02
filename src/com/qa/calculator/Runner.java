@@ -9,8 +9,14 @@ public class Runner {
 		int myNum2 = 3;
 		
 		myCalc.setNumbers(myNum1, myNum2);
+		
 		System.out.println("You wanna add huh? No problem ... " + myCalc.getNumber1() + " + " + myCalc.getNumber2() + " = "  + myCalc.addTwoNumbers());
 		System.out.println("You wanna subtract now?! No problem ... " + myCalc.getNumber1() + " - " + myCalc.getNumber2() + " = " + myCalc.takeTwoNumbers());
+		
+		myNum1 = myCalc.inputNumber1();
+		myNum2 = myCalc.inputNumber2();
+		
+		myCalc.chooseOption(myNum1, myNum2);
 		
 		
 
