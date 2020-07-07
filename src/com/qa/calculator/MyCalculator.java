@@ -107,7 +107,7 @@ public class MyCalculator {
         		break;
         	case 4:
         		double myDCalc  = (double)this.number1/(double)this.number2;
-        		System.out.println("Adding your numbers gives: " + myDCalc);
+        		System.out.println("Dividing your numbers gives: " + myDCalc);
         		break;
 		}
         
