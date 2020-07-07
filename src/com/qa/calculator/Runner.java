@@ -6,11 +6,17 @@ public class Runner {
 	
 		MyCalculator  myCalc = new MyCalculator();
 		int myNum1 = 1;
-		int myNum2 = 3;
+		int myNum2 = 0;
 		
-		Divide myDiv = new Divide(3, 0);
-		myDiv.divider();
+		Divide myDivision = new Divide(myNum1, myNum2);
 		
+		try {
+			myDivision.divider();
+		}
+		catch (DivideByZeroException ex) {
+			System.out.println(ex.getMessage());
+			
+		}
 		
 //		myCalc.setNumbers(myNum1, myNum2);
 //		
