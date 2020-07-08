@@ -22,8 +22,7 @@ class Divide {
 		LOGGER.setLevel(Level.WARNING);
 		LOGGER.log(Level.INFO, "INFO test");
 		LOGGER.warning("Warning test");
-		
-		
+			
 		if (num2 == 0) {
 			throw new DivideByZeroException("Did you want to divide by zero!?");
 		}
